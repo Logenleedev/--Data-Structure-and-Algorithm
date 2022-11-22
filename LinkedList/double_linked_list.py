@@ -22,6 +22,7 @@ class DoublyLinkedList:
             self.head.prev = None
         else:
             self.head = node
+            self.tail = node
             self.head.prev = None
             self.head.next = None
 
@@ -44,6 +45,8 @@ class DoublyLinkedList:
             print("Nothing is here")
         else:
             return self.head.data
+
+    
     
     def peek_back(self): # returns last element
         if self.head == None and self.tail == None: 
@@ -76,6 +79,6 @@ if __name__ == "__main__":
     L.push_front(6)
     L.push_front(5)
     L.push_front(3)
-    L.pop_front()
-    L.pop_front()
-    L.printLinkedList()
+
+    print("Back is: " + str(L.peek_back()))
+    # L.printLinkedList()

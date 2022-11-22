@@ -1,7 +1,7 @@
 | Operation | Time Complexity |
 | ----------- | ----------- |
-| Insert a node  | O(1) |
-| Remove a node | O(1) | 
+| Insert a node (assume you already traverse to the target node)  | O(1) |
+| Remove a node (assume you already traverse to the target node)| O(1) | 
 | Find and then remove a node | O(n) |
 | Find a node | O(n) |
 
