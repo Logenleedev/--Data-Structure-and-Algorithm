@@ -1,3 +1,4 @@
+# Time complexity O(n^2)
 def bubbleSort(seq):
     n = len(seq)
 

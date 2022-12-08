@@ -1,5 +1,5 @@
-# Method 1 - Binary Search Algorithm
 
+# Time Complexity: O(log(n))
 
 def binarysearch(nums, target):
     low = 0

@@ -13,6 +13,8 @@ class Solution:
         return final_list
 
 # Method 2 | Double pointer 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
         ans = [-1]*len(nums)
