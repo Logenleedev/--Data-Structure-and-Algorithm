@@ -22,6 +22,16 @@ def insertionSort(nums):
     			nums[i - 1], nums[i] = nums[i], nums[i - 1]
     		i -= 1
     return nums
+
+# online version
+def insertionSort(nums):
+    for i in range(len(nums)):
+        base = nums[i]
+        j = i - 1
+        while j >= 0 and nums[j] > base:
+            nums[j + 1] = nums[j]
+            j -= 1
+        nums[j + 1] = base
     
 
 a = [3,2,1,4,5,10,6]
