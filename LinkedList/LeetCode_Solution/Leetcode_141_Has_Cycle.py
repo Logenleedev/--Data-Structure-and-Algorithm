@@ -33,6 +33,6 @@ class Solution:
             while (slow and fast):
                 if (slow == fast):
                     return True
-                slow = slow.next.next
+                slow = slow.next
                 fast = fast.next.next
             return False
