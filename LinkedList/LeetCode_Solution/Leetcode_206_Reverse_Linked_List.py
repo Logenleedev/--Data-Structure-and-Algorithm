@@ -14,9 +14,18 @@ class Solution:
 # Method 2 - Recursion 
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if head == None or head.next == None:
-            return head
-        p = self.reverseList(head.next)
-        head.next.next = head
-        head.next = None
-        return p 
+        
+
+        def reverse(pre,cur):
+            if not cur:
+                return pre
+                
+            tmp = cur.next
+            cur.next = pre
+
+            return reverse(cur,tmp)
+        
+        return reverse(None,head)
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
