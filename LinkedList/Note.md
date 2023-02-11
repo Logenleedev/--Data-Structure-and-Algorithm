@@ -105,7 +105,21 @@ class MyLinkedList:
 
 链表的 while 后面的条件：
 ```
-只需要判断什么时候终止我们的遍历
+1. 只需要判断什么时候终止我们的遍历
+2. 判断特殊情况
+3. 根据 .next 的个数确定
+```
+案例：
+
+唤醒链表 while 后面的 condition 是：
+```
+while fast and fast.next:
+```
+
+
+什么时候考虑用dummyhead？
+```
+一般来讲只要涉及到处理链表中node的情况（比如删除什么的）就可以考虑使用dummyhead。这样可以防止处理其他node的逻辑不一样。统一和简化代码。
 ```
 
 
@@ -114,3 +128,4 @@ class MyLinkedList:
 - 开头
 - 结尾
   
+
