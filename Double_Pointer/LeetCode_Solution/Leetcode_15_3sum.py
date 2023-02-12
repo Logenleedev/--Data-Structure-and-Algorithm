@@ -91,7 +91,7 @@ class Solution:
                 j -= 1
         return nums
 
-
+# ----------------------------------------------------------------
     def threeSum(self, nums: List[int]) -> List[List[int]]:
 
         if len(nums) < 3:
@@ -129,6 +129,8 @@ class Solution:
 
 
                 
+# Time Complexity: O(n^2)
+# Space Complexity: O(n)
 
 
             

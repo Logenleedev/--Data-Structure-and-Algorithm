@@ -38,3 +38,6 @@ class Solution:
 
 
 
+
+# Time Complexity: O(n^3)
+# Space COmplexity: O(n)
