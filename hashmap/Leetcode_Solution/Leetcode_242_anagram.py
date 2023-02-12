@@ -37,5 +37,30 @@ class Solution:
                 return False
         return True
 
+# Method 3 - Method 1的简化版
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+
+        mapps = {}
+
+
+        for char in s:
+            mapps[char] = mapps.get(char, 0) + 1
+
+        for char in t:
+            if char not in mapps.keys():
+                return False
+            else:
+                mapps[char] -= 1
+
+        
+        for value in mapps.values():
+            if value != 0:
+                return False 
+            
+        return True 
+
 # Time Complexity: O(n)
 # Space Complexity: O(1)
+
+

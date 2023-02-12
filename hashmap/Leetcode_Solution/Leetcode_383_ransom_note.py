@@ -38,5 +38,8 @@ class Solution:
         
         return True 
 
-# Time Complexity: O(n)
+# m -> the length of the first string
+# n -> the length of the second string  
+
+# Time Complexity: O(m + n)
 # Space Complexity: O(|s|) |s| = 26

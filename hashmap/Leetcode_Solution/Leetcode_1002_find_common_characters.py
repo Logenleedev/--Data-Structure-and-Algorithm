@@ -27,3 +27,12 @@ class Solution:
                 ans.append(chr(ord("a") + i))
                 hash[i] -= 1
         return ans
+
+
+# m -> average length of the list element
+# n -> length of words
+# 26
+
+
+# Time Complexity: O(n(m + 26))
+# Space Complexity: O(26)

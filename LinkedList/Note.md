@@ -103,6 +103,10 @@ class MyLinkedList:
 # obj.deleteAtIndex(index)
 ```
 
+
+# 方法论
+
+
 链表的 while 后面的条件：
 ```
 1. 只需要判断什么时候终止我们的遍历

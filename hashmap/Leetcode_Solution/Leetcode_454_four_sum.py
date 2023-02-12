@@ -19,4 +19,8 @@ class Solution:
         return count 
         
                         
+# assume the average length of 4 array is m
+
+# Time Complexity: O(m^2)
+# Space Complexity: O(m^2)
 
