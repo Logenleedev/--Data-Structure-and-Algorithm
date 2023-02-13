@@ -12,3 +12,6 @@ class Solution:
                 dp[i] += dp[j - 1] * dp[i - j]
 
         return dp[n]
+
+# Time Complexity: O(n^2)
+# Space Complexity: O(n)
