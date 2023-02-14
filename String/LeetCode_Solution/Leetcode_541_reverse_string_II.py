@@ -36,4 +36,6 @@ class Solution:
             nums[i : i + k] = self.reverse_string(nums[i : i + k])
         return "".join(nums)
         
-                
+
+# Time Complexity: O(n)      
+# Space Complexity: O(1)

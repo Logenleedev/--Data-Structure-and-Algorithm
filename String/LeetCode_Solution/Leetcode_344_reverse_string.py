@@ -1,7 +1,6 @@
 
 # Double pointer 
-# Time Complexity: O(n)
-# Space Complexity: O(1)
+
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -13,4 +12,6 @@ class Solution:
             s[left], s[right] = s[right], s[left]
             left += 1
             right -= 1
-        
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
