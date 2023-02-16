@@ -45,4 +45,5 @@ class Solution:
         self.reverse_each_word(trimed_list)
         return "".join(trimed_list)
 
-        
+# Time Complexity: O(n)
+# Space Complexity: O(1)

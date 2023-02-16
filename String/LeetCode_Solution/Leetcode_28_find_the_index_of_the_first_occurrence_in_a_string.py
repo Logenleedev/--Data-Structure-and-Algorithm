@@ -49,4 +49,8 @@ class Solution:
                 return ans
         return -1 
 
-    
+# m -> length of haystack
+# n -> length of needle
+
+# Time Complexity: O(m + n)
+# Space Complexity: O(n)
