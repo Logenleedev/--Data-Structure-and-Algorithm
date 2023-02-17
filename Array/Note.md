@@ -34,3 +34,19 @@ while j < len(nums):
 快指针：找不符合条件的元素
 慢指针：做替换并且最后+1
 ```
+
+
+
+## 易错点
+
+假设我们想 clone 一个数组。如果你这样 clone:
+```
+test = num
+```
+那么我们 change num 的时候 test 也会变。
+
+如果我们想 change num 但是 test 不变，那么需要
+
+```
+test = num[::]
+```

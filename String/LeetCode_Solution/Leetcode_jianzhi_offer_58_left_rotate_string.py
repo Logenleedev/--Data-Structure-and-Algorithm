@@ -14,6 +14,7 @@ class Solution:
 # Method 2: reverse string
 class Solution:
     def reverseLeftWords(self, s: str, n: int) -> str:
+        
         ans = list(s)
         ans[0: n] = reversed(ans[0: n])
         ans[n:] = reversed(ans[n:])
