@@ -36,3 +36,8 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
+
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

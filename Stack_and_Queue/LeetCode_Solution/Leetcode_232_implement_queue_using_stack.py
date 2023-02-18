@@ -31,3 +31,6 @@ class MyQueue:
         if len(self.stack_in) == 0 and len(self.stack_out) == 0:
             return True
         return False
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

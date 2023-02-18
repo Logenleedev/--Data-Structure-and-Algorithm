@@ -12,3 +12,6 @@ class Solution:
             else:
                 ans.append(s)
         return "".join(ans)
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
