@@ -11,3 +11,7 @@ class Solution:
 
                 ans.append(temp)
         return int(ans.pop())
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
