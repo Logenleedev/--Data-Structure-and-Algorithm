@@ -22,4 +22,5 @@ class Solution:
             result[i] = heapq.heappop(pri_que)[1]
         return result
 
-        
+# Time Complexity: O(nlog(k))
+# Space Complexity: O(n)

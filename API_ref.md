@@ -73,4 +73,29 @@ heapq.heapify(li)
 # heapq API
 # https://docs.python.org/zh-cn/3/library/heapq.html
 
+
+pri_que = []
+
+for key, value in ref.items():
+    heapq.heappush(pri_que, (value, key))
+
+```
+
+
+
+## Other 
+Counter in python 
+
+```python 
+from collections import Counter 
+
+a = [1, 2, 3, 3, 3, 4]
+
+print(Counter(a)[1])
+# 1
+
+b = "mmmmmmmabbbsgstyxbg"
+
+print(Counter(b)['m'])
+# 7
 ```
