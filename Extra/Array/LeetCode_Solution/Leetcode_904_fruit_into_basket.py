@@ -20,7 +20,8 @@ class Solution:
                 ref[fruits[i]] += 1
             else:
                 ref[fruits[i]] = 1
-        
+
+            # 不符合 condition
             while len(ref.keys()) > 2:
                 ref[fruits[pointer]] -= 1
 
