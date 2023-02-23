@@ -25,3 +25,5 @@ class Solution:
             return True
         return self.compare(root.left, root.right)
         
+# Time Complexity: O(n) 
+# Space Complexity: O(n)

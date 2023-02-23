@@ -64,3 +64,6 @@ class Solution:
         result = 1 + min(leftHeight, rightHeight)
 
         return result
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

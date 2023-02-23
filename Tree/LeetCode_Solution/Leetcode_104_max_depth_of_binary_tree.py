@@ -51,3 +51,6 @@ class Solution:
 
         result = 1 + max(leftHeight, rightHeight)
         return result 
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
