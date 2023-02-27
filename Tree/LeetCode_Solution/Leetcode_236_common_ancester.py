@@ -22,3 +22,6 @@ class Solution:
         if left:
             return left
         return right
+
+# Time Complexity: O(n) 
+# Space Complexity: O(n)
