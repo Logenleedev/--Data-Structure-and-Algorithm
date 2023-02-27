@@ -25,3 +25,6 @@ class Solution:
             return []
         self.traversal(root, path, result)
         return result
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

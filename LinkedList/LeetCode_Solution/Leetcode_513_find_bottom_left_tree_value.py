@@ -51,3 +51,7 @@ class Solution:
 
         __traverse(root, 1)
         return leftmost_val
+
+# Time Complexity: O(n)
+# Space Comlexity: O(n)
+

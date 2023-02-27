@@ -17,3 +17,6 @@ class Solution:
         root1.right = self.mergeTrees(root1.right, root2.right)
 
         return root1 
+
+# Time Complexity: O(n) 
+# Space Complexity: O(n)
