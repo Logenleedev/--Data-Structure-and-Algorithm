@@ -26,3 +26,6 @@ class Solution:
                 count += 1
         return count 
 
+# m: length of g; n: length of s
+# Time complexity: O(m*log(m) + n*log(n))
+# Space complexity: O(1)

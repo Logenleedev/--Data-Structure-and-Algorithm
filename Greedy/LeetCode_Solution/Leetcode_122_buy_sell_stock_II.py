@@ -14,3 +14,6 @@ class Solution:
                 result += ele
         
         return result 
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

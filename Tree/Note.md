@@ -1,3 +1,19 @@
+## 二叉树的递归
+搜索一条边的写法：
+```python 
+if (递归函数(root.left)) return ;
+if (递归函数(root.right)) return ;
+
+```
+搜索整个二叉树的写法：
+```python 
+left = 递归函数(root.left);
+right = 递归函数(root.right);
+left与right的逻辑处理;
+```
+
+
+
 ## 二叉树分类讨论 left or right 空还是不空
 - Leetcode 101. Symmetric Tree
 - Leetcode 617. Merge Two Binary Trees
