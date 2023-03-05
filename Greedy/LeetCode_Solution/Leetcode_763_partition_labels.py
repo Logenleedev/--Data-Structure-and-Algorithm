@@ -16,3 +16,7 @@ class Solution:
                 ans.append(right - left + 1)
                 left = i + 1
         return ans 
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(26)

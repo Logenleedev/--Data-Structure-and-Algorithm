@@ -8,6 +8,8 @@ int(eval(f'{second_item} {item} {first_item}'))
 
 ```python 
 num = sorted(num)
+num = sorted(num, key = abs, reverse = True)
+num.sort(key = lambda x: (-x[0], x[1]))
 ```
 
 ## Extend list
