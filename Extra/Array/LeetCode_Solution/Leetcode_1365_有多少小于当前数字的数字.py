@@ -28,7 +28,7 @@ class Solution:
         res = nums[:]
         res = sorted(res)
         key_value = dict()
-
+        
         for index, element in enumerate(res):
             if element not in key_value.keys():
                 key_value[element] = index

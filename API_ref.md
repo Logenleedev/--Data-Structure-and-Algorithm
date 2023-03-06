@@ -18,6 +18,20 @@ num.sort(key = lambda x: (-x[0], x[1]))
 num.extend([0] * count)
 ```
 
+## Default dict
+```python 3
+from collections import defaultdict
+
+a = defaultdict(list)
+# => []
+
+a = defaultdict(str)
+# => ""
+
+a = defaultdict(int)
+# => 0
+```
+
 ## Revserse list
 
 ```python 
