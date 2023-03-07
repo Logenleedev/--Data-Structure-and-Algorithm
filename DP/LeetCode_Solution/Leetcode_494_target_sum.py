@@ -16,3 +16,11 @@ class Solution:
                 dp[j] += dp[j - nums[i]]
 
         return dp[bag_size]
+
+
+
+
+# let bag_size = (sum(nums) + target) // 2
+# Time Complexity: O(n * bag_size)
+# Space Complexity: O(bag_size)
+

@@ -1,3 +1,4 @@
+# 2D
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         target = sum(nums)
@@ -38,3 +39,32 @@ class Solution:
             
         # 输出结果
         return dp[-1][col - 1] == target   
+
+# 1D
+class Solution:
+    def canPartition(self, nums: List[int]) -> bool:
+        total = sum(nums)
+
+
+        if total % 2 != 0:
+            return False 
+
+        bag_size = total // 2
+
+        # weight: nums[i]
+        # value: nums[i]
+
+        dp = [0] * (bag_size + 1)
+
+        for i in range(len(nums)):
+
+            for j in range(bag_size, nums[i] - 1, -1):
+                dp[j] = max(dp[j], dp[j - nums[i]] + nums[i])
+
+
+        return True if dp[-1] == bag_size else False 
+
+
+# target 是数组和的一半
+# 1D Time Complexity: O(n^2)
+# 1D Time Complexity: O(target)

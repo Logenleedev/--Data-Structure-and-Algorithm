@@ -12,3 +12,7 @@ class Solution:
                     dp[i][j] = max(dp[i - x][j - y] + 1, dp[i][j])
 
         return dp[m][n]
+
+# l -> length of strs
+# Time Complexity: O(mnl)
+# Space Complexity: O(mn)
