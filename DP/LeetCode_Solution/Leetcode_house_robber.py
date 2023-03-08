@@ -14,3 +14,6 @@ class Solution:
 
 
         return dp[len(nums) - 1]
+
+# Time Complexity: O(n)
+# Spacee Complexity: O(n)
