@@ -24,3 +24,8 @@ class Solution:
         # print(dp)
 
         return dp[len(prices) - 1][4]
+
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

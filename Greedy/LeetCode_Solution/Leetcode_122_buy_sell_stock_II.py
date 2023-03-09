@@ -1,3 +1,4 @@
+# DP method
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         res = [0] * len(prices)
@@ -17,3 +18,4 @@ class Solution:
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+

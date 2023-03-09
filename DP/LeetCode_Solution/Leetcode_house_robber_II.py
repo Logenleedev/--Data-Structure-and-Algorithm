@@ -24,3 +24,7 @@ class Solution:
         val2 = self.rob_list(nums[:-1])
 
         return max(val1, val2)
+
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
