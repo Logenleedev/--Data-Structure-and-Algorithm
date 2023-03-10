@@ -14,3 +14,6 @@ class Solution:
                     dp[i] = max(dp[j] + 1, dp[i])
 
         return max(dp)
+
+# Time Complexity: O(n^2)
+# Space Complexity: O(n)
