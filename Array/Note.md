@@ -50,3 +50,19 @@ test = num
 ```
 test = num[::]
 ```
+
+三种循环不变量
+- []
+- [)
+- (]
+具体看什么时候闭可以看区间有没有意义
+
+## 解题技巧
+[labuladong](https://labuladong.gitee.io/algo/di-ling-zh-bfe1b/shuang-zhi-fa4bd/)
+- 双指针 （只要数组有序就一定要反映到）
+  - 快慢指针
+  - 左右指针 （二分）
+    - 二分
+    - 两数之和 II
+  
+  
