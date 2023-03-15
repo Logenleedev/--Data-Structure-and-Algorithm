@@ -106,16 +106,20 @@ class MyLinkedList:
 
 # 方法论
 
+1. dummyhead (多用于创造和删除 linked list 元素)
+2. slow and fast pointer 
+3. 注意链表的结尾条件
 
 链表的 while 后面的条件：
 ```
 1. 只需要判断什么时候终止我们的遍历
-2. 判断特殊情况
+2. 判断特殊情况 
 3. 根据 .next 的个数确定
 ```
+
 案例：
 
-唤醒链表 while 后面的 condition 是：
+环形链表 while 后面的 condition 是：
 ```
 while fast and fast.next:
 ```
