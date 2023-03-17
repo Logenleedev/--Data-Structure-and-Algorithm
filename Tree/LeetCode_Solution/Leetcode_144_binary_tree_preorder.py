@@ -22,6 +22,8 @@ class Solution:
         
         preorder(root)
         return result 
+# Time Complexity: O(n)
+# Space Complexity: on average O(log(n)); worse case O(n)
 
 # Method 2: Traversal
 
@@ -51,3 +53,5 @@ class Solution:
         return result 
             
 
+# Time Complexity: O(n)
+# Space Complexity: on average O(log(n)); worse case O(n)
