@@ -1,0 +1,36 @@
+class Solution:
+    def isValid(self, s: str) -> bool:
+
+
+        ref = {
+            "(":")",
+            "[":"]",
+            "{":"}"
+        }
+
+        stack = []
+
+        # case 1: ()) -> 右边多余
+        # case 2: [) -> 不 match 
+        # case 3: (() -> 左边多余
+
+        for i in range(len(s)):
+            # append element in the stack 
+            if s[i] in ref.keys():
+                stack.append(ref[s[i]])
+
+            # case 1 
+            elif len(stack) == 0:
+                return False 
+
+            # case 2
+            elif len(stack) != 0 and stack.pop() != s[i]:
+                return False 
+
+            # cannot switch the order of case 1 and case 2 .Otherwise, there will be error 
+
+        # case 3
+        return True if len(stack) == 0 else False 
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
