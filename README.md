@@ -11,4 +11,4 @@
 - [Greedy 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/Greedy/Note.md)
 - [DP 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/foundation/DP)
 
-[比赛](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/foundation)
+[比赛](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/Contest)
