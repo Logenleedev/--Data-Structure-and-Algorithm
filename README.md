@@ -11,4 +11,19 @@
 - [Greedy 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/Greedy/Note.md)
 - [DP 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/foundation/DP)
 
+***
+[补充习题](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/Extra)
+
+*** 
 [比赛](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/Contest)
+
+***
+很有用的参考：
+**刷题**
+- [代码随想录](https://github.com/youngyangyang04/leetcode-master)
+- [东哥](https://labuladong.gitee.io/algo/)
+- [算法模版](https://github.com/dashidhy/algorithm-pattern-python)
+
+**周赛**
+- [灵哥](https://space.bilibili.com/206214/)
+- [题目难度等级](https://zerotrac.github.io/leetcode_problem_rating/#/)
