@@ -27,3 +27,4 @@
 - [灵哥](https://space.bilibili.com/206214/)
 - [题目难度等级](https://zerotrac.github.io/leetcode_problem_rating/#/)
 - [Totally optional - 周赛题目评级](https://zerotrac.github.io/leetcode_problem_rating/#/)
+- [心得](https://juejin.cn/post/7186915748395270201#heading-1)
