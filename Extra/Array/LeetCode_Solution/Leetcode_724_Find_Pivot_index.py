@@ -36,3 +36,26 @@ class Solution:
         return -1 
 # Time Complexity: O(n)
 # Space Complexity: O(1)
+
+
+
+# Method 3:
+# class Solution:
+    def pivotIndex(self, nums: List[int]) -> int:
+        if len(nums) == 1:
+            return 0
+
+        total = sum(nums)
+        left = 0
+
+        for i, x in enumerate(nums):
+            if left == total - left - x:
+                return i 
+            else:
+                left += x
+
+
+
+        return -1 
+
+ 
