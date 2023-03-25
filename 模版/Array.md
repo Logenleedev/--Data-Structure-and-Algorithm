@@ -18,3 +18,8 @@ for i in range(10):
 
 # 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 1 -> 2 -> 3 -> 4
 ```
+
+
+
+## 解题技巧
+- 带着下标排序 (见[双周赛](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/Contest/Bi-Weekly-Contest/100/Leetcode_6351_find_score.py))

@@ -1,5 +1,19 @@
 ## Tree 
 
+
+搜索一条边的写法：
+```python 
+if (递归函数(root.left)) return ;
+if (递归函数(root.right)) return ;
+
+```
+搜索整个二叉树的写法：
+```python 
+left = 递归函数(root.left);
+right = 递归函数(root.right);
+left与right的逻辑处理;
+```
+
 ### Recursion - preorder 
 ```python
 class Solution:
