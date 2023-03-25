@@ -11,7 +11,9 @@ class Solution:
 
             # 如果下标没有用过
             if a[i] == False:
+                # 收到结果集合里面
                 result += item 
+                # Make a note 
                 a[i] = True 
                 a[i - 1] = True 
                 a[i + 1] = True 
