@@ -31,4 +31,5 @@
   - 1200 - 1500: medium
   - 1600 - 2000: hard
 - [Totally optional - 周赛题目评级](https://zerotrac.github.io/leetcode_problem_rating/#/)
+- [残酷群](https://github.com/wisdompeak/LeetCode)
 - [心得](https://juejin.cn/post/7186915748395270201#heading-1)
