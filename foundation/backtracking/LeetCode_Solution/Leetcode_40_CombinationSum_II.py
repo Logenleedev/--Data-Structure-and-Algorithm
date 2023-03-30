@@ -1,3 +1,4 @@
+# use [1,1,2] to derive the result 
 class Solution:
     
     def __init__(self):

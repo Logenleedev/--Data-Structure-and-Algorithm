@@ -1,25 +1,31 @@
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        if len(nums) == 1:
-            return 0
 
-        curDistance = 0
-        nextDistance = 0
+        
+        nextDist = 0
+        curDist = 0
+        res = 0
 
+        for i in range(len(nums)):
+            
+            nextDist = max(nextDist, i + nums[i])
 
-        step = 0
-
-        for i in range(len(nums) - 1):
-            nextDistance = max(nextDistance, nums[i] + i)
-
-            if i == curDistance:
-                curDistance = nextDistance
-                step += 1
-
-                if i == len(nums) - 1:
+            # if i reach the current limit of curDist 
+            if i == curDist:
+                # if still didn't reach the end of the array 
+                if curDist < len(nums) - 1:
+                    # update and +1
+                    curDist = nextDist
+                    res += 1
+                    # check whether you can reach to the end of the array after updating
+                    if curDist >= len(nums) - 1:
+                        break
+                # reach to the end of the array 
+                else:
                     break
 
-        return step 
+        
+        return res 
 
 # Time Complexity: O(n)
 # Space Complexity: O(1)

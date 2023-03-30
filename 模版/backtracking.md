@@ -52,5 +52,5 @@ result.pop()
 ## string 
 result += "xxx"
 backtracking()
-result -= result[:-1]
+result = result[:-1]
 ```

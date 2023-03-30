@@ -6,11 +6,13 @@ class Solution:
             rest = gas[i] - cost[i]
             index = (i + 1) % len(gas)
 
+            # if still have gas, then you can keep moving  
             while index != i and rest > 0:
 
                 rest = rest - cost[index] + gas[index]
                 index = (index + 1) % len(gas)
 
+            # if you just used up all the fuel and you return to the original position, then return the answer
             if rest >= 0 and index == i:
                 return i 
         

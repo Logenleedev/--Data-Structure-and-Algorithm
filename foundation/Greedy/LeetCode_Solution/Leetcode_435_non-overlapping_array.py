@@ -5,12 +5,14 @@ class Solution:
         intervals.sort(key = lambda x: x[0])
 
 
-        # count the number of overlapping intervals
+        # count the number of non-overlapping intervals
         count = 1
 
 
         for i in range(1, len(intervals)):
             # non-overlap 
+            # notice >=. For this question, [1,2] and [2, 3] are defined
+            # to be non-overlapping
             if intervals[i][0] >= intervals[i - 1][1]:
                 count += 1
             # overlap
