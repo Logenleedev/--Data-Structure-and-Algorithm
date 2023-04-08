@@ -35,3 +35,7 @@ for i in range(startIndex, len(self.nums)):
 ```
 
 
+
+
+## 复杂度分析
+时间复杂度：符合要求的叶子数量 * 叶子的深度

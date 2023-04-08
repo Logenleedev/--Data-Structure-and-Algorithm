@@ -9,7 +9,8 @@ class Solution:
                 if s[i - 1] == t[j - 1]:
                     dp[i][j] = dp[i - 1][j - 1] + 1
                 else:
-                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+                    # 删 t
+                    dp[i][j] = dp[i][j - 1]
                     
                 # result = max(result, dp[i][j])
         return True if dp[len(s)][len(t)] == len(s) else False

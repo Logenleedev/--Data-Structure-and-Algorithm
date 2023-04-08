@@ -26,7 +26,7 @@ class Solution:
         return result
 
 # Time Complexity: 
-O(Cr(n, k) * k)
+# O(Cr(n, k) * k)
 
 # Space Complexity:
-O(n + k)
+# O(n + k)
