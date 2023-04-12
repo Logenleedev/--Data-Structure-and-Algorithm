@@ -115,3 +115,18 @@ b = "mmmmmmmabbbsgstyxbg"
 print(Counter(b)['m'])
 # 7
 ```
+
+
+```python
+x = "a"
+x.isalpha() -> True
+
+x = "0"
+x.isalpha() -> False 
+
+x = "0"
+x.isnumeric() -> True 
+
+string.lower()
+string.upper()
+```
