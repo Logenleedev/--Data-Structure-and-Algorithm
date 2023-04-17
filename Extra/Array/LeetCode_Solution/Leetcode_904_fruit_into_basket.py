@@ -38,3 +38,33 @@ class Solution:
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+
+
+# labuladong 模版解法
+from collections import defaultdict
+class Solution:
+    def totalFruit(self, fruits: List[int]) -> int:
+
+        res = defaultdict(int)
+
+        count = 0
+        pointer = 0
+
+        for i in range(len(fruits)):
+            res[fruits[i]] += 1
+
+
+            while len(res.keys()) > 2:
+                # update data 
+
+                discard = fruits[pointer]    
+
+                res[discard] -= 1
+
+                if res[discard] == 0:
+                    del res[discard]
+                pointer += 1
+
+            # record answer 
+            count = max(count, i - pointer + 1)
+        return count 

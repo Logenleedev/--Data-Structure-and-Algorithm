@@ -97,7 +97,13 @@ for key, value in ref.items():
 
 ```
 
+## Python in one line 
+```python 
+a = {1:10, 2:10, 3:10, 4:10, 1: 100, 9:100}
 
+max_count = max(a.values())
+print(min([x for x, c in a.items() if c == max_count]))
+```
 
 ## Other 
 Counter in python 

@@ -23,6 +23,8 @@ for i in range(10):
 ```python 
 for j in range(len(nums)):
     判断[i, j]是否满足条件
+
+    # 判断左侧窗口是否要收缩
     while 不满足条件：
         i += 1 （最保守的压缩i，一旦满足条件了就退出压缩i的过程，使得滑窗尽可能的大）
     不断更新结果（注意在while外更新！）
@@ -32,6 +34,8 @@ for j in range(len(nums)):
 ```python 
 for j in range(len(nums)):
     判断[i, j]是否满足条件
+
+    # 判断左侧窗口是否要收缩
     while 满足条件：
         不断更新结果(注意在while内更新！)
         i += 1 （最大程度的压缩i，使得滑窗尽可能的小）
