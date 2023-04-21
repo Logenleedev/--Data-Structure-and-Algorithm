@@ -98,6 +98,31 @@ class Solution:
         result = _isvalid(root)
         return result 
 
+# Method 3: Recursion:
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def validate(self, root, min, max):
+        if root == None:
+            return True 
+        
+        if min != None and root.val <= min:
+            return False 
+        elif max != None and root.val >= max:
+            return False 
+        
+        return self.validate(root.left, min, root.val) and self.validate(root.right, root.val, max)
+    def isValidBST(self, root: Optional[TreeNode]) -> bool:
+        if root == None:
+            return True 
+        return self.validate(root, None, None)
+
+
         
  
 
