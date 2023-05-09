@@ -74,3 +74,63 @@ def binarysearch(nums, target):
     return -1
 
 ```
+
+lower bound binary search [left, right]
+```python 3
+class Solution:
+
+
+    def binary(self, nums, target):
+        left = 0
+        right = len(nums) - 1
+
+
+        while left <= right:
+            mid = (left + right) // 2
+
+
+            if nums[mid] < target:
+                left = mid + 1
+
+            else:
+                right = mid - 1
+
+        return left 
+    
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        start = self.binary(nums, target)    
+
+        if start == len(nums) or nums[start] != target:
+            return [-1, -1]
+
+        end = self.binary(nums, target + 1)
+
+        return [start, end - 1]
+```
+
+
+lower bound binary search [left, right)
+
+```python 3
+class Solution:
+    def lower(self, nums, target):
+        i = 0 
+        j = len(nums)
+        
+        while i < j:
+            mid = (i + j) // 2
+            if nums[mid] < target:
+                i = mid + 1
+            else:
+                j = mid 
+
+        return i
+
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        start = self.lower(nums, target)
+        if start == len(nums) or nums[start] != target:
+            return [-1, -1]
+
+        end = self.lower(nums, target + 1) - 1
+        return [start, end]
+```

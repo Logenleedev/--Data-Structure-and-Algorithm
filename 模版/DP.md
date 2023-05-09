@@ -120,3 +120,18 @@ class Solution:
 
         return dp[target]
 ```
+
+
+
+## 区间 dp
+```python 3
+def helper(self, ns: List[int]) :
+    N = len(ns)
+    dp = [[0] * N for _ in range(N+1)]
+    for l in range(N): # 长度从小到大
+        for i in range(N-l): # 以 i 为 开头
+            j = i + l           # 以 j 为 终点
+            for k in range(i,j): # 以 k 为分割点，进行分治         
+                // Todo 业务逻辑 
+# 例题可以参考力扣 673
+```
