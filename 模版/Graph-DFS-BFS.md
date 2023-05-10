@@ -33,3 +33,34 @@ class Solution:
 
         return res
 ```
+
+## BFS 
+```python 3
+# [[1,3],[0,2],[1,3],[0,2]]
+
+
+
+from collections import deque
+def BFS(graph, startIndex):
+    
+    que = deque([startIndex])
+    res = []
+    visited = [False] * len(graph)
+    
+    while len(que) > 0:
+        element = que.popleft()
+        
+        # 看看之前见没见过
+        if visited[element] == True:
+                continue 
+            
+        # 没有见过
+        res.append(element)
+        visited[element] = True
+        
+        # 附加neighbor
+        for v in graph[element]:
+            que.append(v)
+            
+    return res 
+```
