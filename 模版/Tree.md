@@ -181,6 +181,7 @@ class Solution:
             for _ in range(size):
                 node = que.popleft()
                 result.append(node.val)
+                
                 if node.left:
                     que.append(node.left)
 
