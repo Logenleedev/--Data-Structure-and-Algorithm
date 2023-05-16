@@ -45,5 +45,5 @@ class Solution:
                             
         return minute if fresh_orange == 0 else -1 
                 
-# Time Complexity: O(n^2)
+# Time Complexity: O((nm)^2)
 # Space Complexity: O(nm)
