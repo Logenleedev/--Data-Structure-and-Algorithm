@@ -12,7 +12,7 @@ class Solution:
 
         if i < 0 or j < 0 or i >= m or j >= n:
             return 
-            
+
         elif grid[i][j] == "2" or grid[i][j] == "0":
             return 
 
@@ -65,4 +65,40 @@ def BFS(graph, startIndex):
             que.append(v)
             
     return res 
+```
+
+
+## N ary tree BFS
+```python 3
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val=None, children=None):
+        self.val = val
+        self.children = children
+"""
+from collections import deque 
+class Solution:
+    def maxDepth(self, root: 'Node') -> int:
+        if root == None:
+            return 0 
+        
+        que = deque([root])
+
+        count = 0
+
+        while que:
+            size = len(que)
+
+            for _ in range(size):
+
+                node = que.popleft()
+
+                # 把孩子压入栈区
+                for ele in node.children:
+                    que.append(ele)
+            
+            count += 1
+        return count 
+        
 ```

@@ -15,7 +15,7 @@ class Solution:
             return x 
 
         # if n is odd:
-        # x ^ n = x (x * x) ^ (n // 2) 
+        # x ^ n = x * (x * x) ^ (n // 2) 
         # if n is even:
         # x ^ n = (x * x) ^ (n // 2)
 

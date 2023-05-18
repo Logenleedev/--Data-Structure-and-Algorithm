@@ -33,20 +33,27 @@ def find_pairs_with_given_difference_brute(arr, k):
     return ans 
 
 
+# like two sum 
+# if complement not in -> 把自己加进去
+# if complement in -> 操作。 弄到答案数组
+
 def find_pairs_with_given_difference(arr, k):
-    ref = {}
+    complement = set()
     ans = []
 
     for i in range(len(arr)):
-        x = arr[i] - k 
-        y = k - arr[i]
+        x = arr[i] + k 
+        y = arr[i] - k
 
-        if x in ref.keys():
+        if x in complement:
             ans.append([x , arr[i]])
-        elif y in ref.keys():
-            ans.append([y , arr[i]])
+        if y in complement:
+            ans.append([arr[i], y])
+     
+
+        complement.add(arr[i])
         
-        ref[arr[i]] = i
+
     return ans 
 
 
