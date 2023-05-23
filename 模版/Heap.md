@@ -8,3 +8,10 @@ for key, value in map.items():
         if len(pri_que) > k:
             heapq.heappop(pri_que)
 ```
+
+几个常用的 API 
+```python 
+heapq.heapify()
+heapq.heappush()
+heapq.heappop()
+```

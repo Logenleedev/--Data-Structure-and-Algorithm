@@ -1,5 +1,6 @@
 class Solution:
-    
+    # index: 应该是什么颜色
+    # color[startIndex]: 实际是什么颜色
     def dfs(self, graph, color, startIndex, index):
         if color[startIndex] != 0:
             return color[startIndex] == index
