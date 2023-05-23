@@ -19,13 +19,13 @@ class Solution:
             if s[i] in ref.keys():
                 stack.append(ref[s[i]])
 
-            # case 1 
+            # case 1:
             elif len(stack) == 0:
                 return False 
 
-            # case 2
-            elif len(stack) != 0 and stack.pop() != s[i]:
-                return False 
+            # case 2:
+            elif stack.pop() != s[i]:
+                return False
 
             # cannot switch the order of case 1 and case 2 .Otherwise, there will be error 
 

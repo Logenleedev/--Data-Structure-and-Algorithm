@@ -12,6 +12,7 @@
 - [Greedy 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/Greedy/Note.md)
 - [DP 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/foundation/DP)
 - [Mono stack 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/mono_stack/Note.md)
+- [Graph 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/%E6%A8%A1%E7%89%88/Graph-DFS-BFS.md)
   
 ***
 [补充习题](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/Extra)
@@ -39,3 +40,22 @@
 
 **面试**
 - [Interview cake](https://www.interviewcake.com/)
+
+
+
+**Topic**
+- Array 
+- Linked List 
+- Two Pointer 
+- Stack and Queue 
+- Backtracking 
+- Tree 
+- DP 
+- Monotonic Stack 
+- Sliding window 
+- Binary Search 
+- Graph 
+- Math and Geometry 
+- Priority Queue 
+- Sort 
+- prefix 
