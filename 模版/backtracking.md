@@ -30,6 +30,13 @@ def backtracking(parameters):
         递归函数
         回溯 - 撤销处理节点的情况
     
+# 如果有一个答案就可以 比如说解数独和word search 那么就可以采用二叉树的 
+# 
+# 处理节点
+# if recursive_call(): 
+    # return True 
+# 回溯 - 撤销处理节点的情况
+
 
 ```
 

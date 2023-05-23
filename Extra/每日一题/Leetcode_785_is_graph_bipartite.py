@@ -8,6 +8,7 @@ class Solution:
 
         for v in graph[startIndex]:
             # 如果邻居的 color 不 match
+            # 找到一个就 return
             if not self.dfs(graph, color, v, -index):
                 return False 
 
