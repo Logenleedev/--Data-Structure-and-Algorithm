@@ -1,4 +1,9 @@
 
+什么时候要想到用 heap?
+关键字
+1. k + adj (e.g. k smallest)
+2. most + adj (e.g. most heavy blablabla)
+
 
 维护k个最大元素
 
