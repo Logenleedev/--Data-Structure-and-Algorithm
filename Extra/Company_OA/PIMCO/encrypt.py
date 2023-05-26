@@ -17,4 +17,5 @@ def encryption(encrypted, k):
 
     return ''.join(temp)
 
-print(encryption('VTAOG', 2))
+print(encryption('VTAOG', 25))
+

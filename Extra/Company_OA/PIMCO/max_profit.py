@@ -1,22 +1,17 @@
-def max_profit(arr, k):
-    temp = []
+def contprofit(arr, k):
+    profits = 0
+    for i in range(len(arr) - k):
+        window = sum(arr[i : i + k])
 
 
-    num = arr[::-1]
-    
-    for i in range(len(arr) // k):
-        ans = 0 
+        for j in range(i + k, len(arr)):
+            nextwindow = sum(arr[j : j + k])
 
-        # side one 
 
-        ans += sum(arr[i : i + k])
-        ans += sum(num[i : i + k])
-
-        print("side1", arr[i : i + k])
-        print("side2", num[i : i + k])
-
-        temp.append(ans)
-
-    return max(temp)
+            if j + k > len(arr) - 1:
+                diff = (j + k) - len(arr)
+                nextwindow += sum(arr[0:diff])
+            profits = max(profits, window + nextwindow)
+    return profits
         
-print(max_profit([1, 5, 1, 3, 7, -3], 3))
+print(contprofit([1, 5, 1, 3, 7, -3], 2))
