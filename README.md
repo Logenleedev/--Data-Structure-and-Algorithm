@@ -10,7 +10,7 @@
 - [Tree 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/Tree/Note.md)
 - [回溯总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/backtracking/Note.md)
 - [Greedy 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/Greedy/Note.md)
-- [DP 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/tree/master/foundation/DP)
+- [DP 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/DP/Note.md)
 - [Mono stack 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/foundation/mono_stack/Note.md)
 - [Graph 总结](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/%E6%A8%A1%E7%89%88/Graph-DFS-BFS.md)
   
@@ -59,3 +59,4 @@
 - Priority Queue 
 - Sort 
 - prefix 
+- Trie 
