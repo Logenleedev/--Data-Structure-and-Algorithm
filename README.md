@@ -40,7 +40,7 @@
 
 **面试**
 - [Interview cake](https://www.interviewcake.com/)
-
+- [Grind](https://www.techinterviewhandbook.org/grind75?grouping=topics)
 
 
 **Topic**
@@ -48,10 +48,10 @@
 - Linked List 
 - Two Pointer 
 - Stack and Queue 
+- Monotonic Stack 
 - Backtracking 
 - Tree 
 - DP 
-- Monotonic Stack 
 - Sliding window 
 - Binary Search 
 - Graph 
@@ -60,3 +60,4 @@
 - Sort 
 - prefix 
 - Trie 
+- Bit manipulation
