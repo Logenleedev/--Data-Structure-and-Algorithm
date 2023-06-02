@@ -41,7 +41,11 @@ class Solution:
 # [[1,3],[0,2],[1,3],[0,2]]
 
 
-
+# BFS 四部曲
+# 1. pop
+# 2. 看有没有见过
+# 3. 操作。记录 startindex visited 过了
+# 4. append neighbors | 有的时候要判断 neighbor 是不是 visit 过了
 from collections import deque
 def BFS(graph, startIndex):
     
