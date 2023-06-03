@@ -61,3 +61,6 @@ result += "xxx"
 backtracking()
 result = result[:-1]
 ```
+
+## 参数
+backtracking(原始字符, idx, result, 辅助1, 辅助2)
