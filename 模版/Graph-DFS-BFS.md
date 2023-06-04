@@ -46,6 +46,7 @@ class Solution:
 # 2. 看有没有见过
 # 3. 操作。记录 startindex visited 过了
 # 4. append neighbors | 有的时候要判断 neighbor 是不是 visit 过了
+模版
 from collections import deque
 def BFS(graph, startIndex):
     
@@ -105,4 +106,32 @@ class Solution:
             count += 1
         return count 
         
+```
+
+
+## DFS 
+
+模版
+```python 
+def dfs(startIndex):
+    # base case 
+    if visited[startIndex] == False:
+        return 
+
+    # operation
+    visited[startIndex] = True 
+
+
+    # neighbor 
+    for v in graph[startIndex]:
+        # condition 
+        dfs(v)
+```
+
+
+
+例题:
+
+```python3 
+
 ```
