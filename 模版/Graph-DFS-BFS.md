@@ -108,6 +108,7 @@ class Solution:
         
 ```
 
+[例题1](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/Extra/%E9%A2%98%E5%8D%95_and_tag/Leetcode_US/Graph/Leetcode_994_rotting_oranges.py)
 
 ## DFS 
 
@@ -128,10 +129,5 @@ def dfs(startIndex):
         dfs(v)
 ```
 
-
-
-例题:
-
-```python3 
-
-```
+[例题1](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/Extra/%E9%A2%98%E5%8D%95_and_tag/labuladong/Graph/Leetcode_323_number_of_conneced_components.py)
+[例题2](https://github.com/Logenleedev/--Data-Structure-and-Algorithm/blob/master/Extra/%E9%A2%98%E5%8D%95_and_tag/labuladong/Graph/Leetcode_547_number_of_province.py)
