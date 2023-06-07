@@ -45,5 +45,4 @@ class Solution:
 # n -> 4 字母的数量
 
 # Time Complexity: O(3^m * 4^n)
-# Space Complexity: O(m + n)
-
+# Space Complexity: O(m + n) 基本上就是 O(length of the digit string)
