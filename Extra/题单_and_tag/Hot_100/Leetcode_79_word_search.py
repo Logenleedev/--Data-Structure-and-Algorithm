@@ -10,7 +10,9 @@ class Solution:
         m = len(self.board)
         n = len(self.board[0])
 
-        # Base case 
+        # Base case
+        # 注意点：这个 if 必须是第一个
+        # 如果不是第一个的话 board = [["a"]] word = "a" 通过不了
         if startIndex == len(self.word):
             return True 
 

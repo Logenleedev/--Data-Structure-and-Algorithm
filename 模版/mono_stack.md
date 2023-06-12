@@ -1,3 +1,4 @@
+# 栈扣 -> 栈尾：单调递增
 ```python
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:

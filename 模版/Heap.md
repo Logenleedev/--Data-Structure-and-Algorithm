@@ -1,4 +1,7 @@
+             
 
+
+             
 什么时候要想到用 heap?
 关键字
 1. k + adj (e.g. k smallest)
