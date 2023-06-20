@@ -42,6 +42,8 @@
 - [Interview cake](https://www.interviewcake.com/)
 - [Grind](https://www.techinterviewhandbook.org/grind75?grouping=topics)
 
+**OA**
+- [ACM 模式](https://www.cnblogs.com/jfchen/p/python-acm-input-and-output.html)
 
 **Topic**
 - Array 
