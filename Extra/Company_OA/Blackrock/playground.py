@@ -1,3 +1,11 @@
+'''
+USD,CAD,1.3;USD,GBP,0.71;USD,JPY,109;GBP,JPY,155
+USD
+JPY
+'''
+
+
+
 import sys
 
 conversion_rate = sys.stdin.readline().strip()  # read first line

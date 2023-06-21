@@ -57,6 +57,7 @@ def test_1_wei_bag_problem():
 ```
 
 ## 完全背包问题 (Knapsack problem) - 1D 
+# 物品可以拿多次
 ```python 3
 
 def test_1_wei_bag_problem():
@@ -91,6 +92,8 @@ class Solution:
         dp[0] = 1
         # dp relation:
         # dp[j] += dp[j - coins[i]]
+        
+        # 先物品再背包
 
         for i in range(len(coins)):
             for j in range(coins[i], amount + 1):
@@ -112,6 +115,9 @@ class Solution:
 
         # how to traverse (order)
         # state transformation 
+
+        # 先背包再物品
+        
         for j in range(1, target + 1):
             for i in range(len(nums)):
                 if j >= nums[i]:
