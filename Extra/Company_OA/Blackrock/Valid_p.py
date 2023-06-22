@@ -22,7 +22,7 @@ def isValid(s):
             stack.pop()
         else:
             return False 
-
+    
     return True if len(stack) == 0 else False
 
 print(isValid(s))
