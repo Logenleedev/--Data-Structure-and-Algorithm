@@ -37,9 +37,6 @@ class Solution:
 
                 # 情况2：右括号
                 elif cur_char == ')':
-                    # 不用右括号
-                    dfs(string, cur_idx + 1, cur_res, l_count, r_count)
-                    
                     # 用右括号
                     if l_count > r_count:
                         # 注意这里左括号大于右括号的时候才有意义。如果是 ））那基本就不用看了
@@ -47,6 +44,9 @@ class Solution:
                         dfs(string, cur_idx + 1, cur_res, l_count, r_count + 1)
                         cur_res.pop()
                 
+                    # 不用右括号
+                    dfs(string, cur_idx + 1, cur_res, l_count, r_count)
+                    
                 # 情况3：字母
                 else:
                     cur_res.append(cur_char)
