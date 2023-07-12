@@ -1,6 +1,8 @@
 '''
 求1 to n 的和 且 不加 5与7的倍数
 '''
+import sys
+s = sys.stdin.readline().strip()
 
 def solution(n):
     sum = 0 
@@ -10,5 +12,5 @@ def solution(n):
             
     return sum
 
+print(solution(int(s)))
 
-print(solution(7))

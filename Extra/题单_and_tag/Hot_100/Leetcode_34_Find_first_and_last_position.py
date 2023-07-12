@@ -1,3 +1,11 @@
+# 思路：
+# 最后的分类讨论要 discuss corner cases
+# 注意其实只要围绕着 start 讨论就可以了
+# 两种情况
+# 1. start 越界
+# 2. nums[start] 根本就不是target
+
+
 class Solution:
     # [left, right)
     def lower(self, nums, target):
@@ -36,3 +44,4 @@ class Solution:
 
 # Time Complexity: O(log(n))
 # Space Complexity: O(1)
+
