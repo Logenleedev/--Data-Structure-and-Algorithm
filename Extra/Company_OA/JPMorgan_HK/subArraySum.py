@@ -8,20 +8,14 @@ for _ in range(n):
 
 
 def SubArraySum(arr, n):
-    temp, result = 0, 0
+    result = 0
  
-    # Pick starting point
+    # computing sum of subarray
+    # using formula
     for i in range(0, n):
+        result += (arr[i] * (i+1) * (n-i))
  
-        # Pick ending point
-        temp = 0
-        for j in range(i, n):
-            
-            # sum subarray between
-            # current starting and
-            # ending points
-            temp += sum(arr[i: j + 1])
-        result += temp
+    # return all subarray sum
     return result
 
 print(SubArraySum(temp, n))

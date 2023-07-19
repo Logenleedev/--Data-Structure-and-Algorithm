@@ -36,7 +36,8 @@ def solution(arr):
 
     return ans
 
-print(solution("Timeed to write great code"))
+print(solution("this is a test string"))
 
 
-
+# if the above code doesn't work, then please check:
+# https://www.geeksforgeeks.org/find-the-first-maximum-length-even-word-from-a-string/
