@@ -8,7 +8,13 @@ The lengths of the words are 4, 2, 5, 5, 4, in order, The longest even length wo
 
 
 '''
+'''
+# ACM 加入 
 
+import sys
+
+s = sys.stdin.readline().strip() 
+'''
 
 def solution(arr):
     arr = arr.split(" ")

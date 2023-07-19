@@ -1,3 +1,11 @@
+'''
+# ACM 加入 
+
+import sys
+
+s = sys.stdin.readline().strip() 
+'''
+
 def gamewinner(string):
 
 

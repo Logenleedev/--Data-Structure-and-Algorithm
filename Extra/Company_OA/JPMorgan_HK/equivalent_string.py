@@ -3,7 +3,14 @@
 Two strings are considered "almost equivalent" if they have the same length AND for each lowercase letter x, the number of occurrences of 
 x in the two strings differs by no more than 3. 也就是给定2个, String, 判断这2个String是不是"almost equivalent".
 '''
+'''
+# ACM 加入 
 
+import sys
+
+s1 = sys.stdin.readline().strip() 
+s2 = sys.stdin.readline().strip() 
+'''
 
 def solution(word1, word2):
     ref1 = [0] * 26
