@@ -28,5 +28,5 @@ def gamewinner(string):
         return 'Bob'
             
 
-print(gamewinner("wwwwbbbbwww"))
+print(gamewinner("wwwbbbbwww"))
 
