@@ -82,3 +82,13 @@ model.fit(
     epochs=20
 )
 ```
+
+random_index a sample and predict the probability
+
+```python 
+prediction = model.predict(X[random_index].reshape(1,400))
+if prediction >= 0.5:
+    yhat = 1
+else:
+    yhat = 0
+```
